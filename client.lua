@@ -11,6 +11,7 @@ local eventHandlers = {}
 
 local _nodes = nil
 
+-- Startup event
 AddEventHandler("Labor:Client:Setup", function()
     -- Ped to start job
     PedInteraction:Add("TobaccoJob", `s_m_m_gardener_01`, vector3(-44.946, 2893.854, 59.099), 235.567, 25.0, {
